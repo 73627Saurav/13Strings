@@ -17,6 +17,7 @@ let sentence2 = "${boy2} is a friend of ${boy1}"
 // use backtick (` `) to print template literal
 console.log(sentence1) // Nikhil is a friend of Pramod
 console.log(sentence2) // ${boy2} is a friend of ${boy1}
+// always use backticks*
 
 
 // Escape Sequence Characters
