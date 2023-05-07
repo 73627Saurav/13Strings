@@ -12,9 +12,12 @@ console.log(friend) // Prakash
 let boy1 = "Pramod"
 let boy2 = "Nikhil"
 // Nikhil is a friend of Pramod
-let sentence = `${boy2} is a friend of ${boy1}`
-console.log(sentence)
-// Nikhil is a friend of Pramod
+let sentence1 = `${boy2} is a friend of ${boy1}`
+let sentence2 = "${boy2} is a friend of ${boy1}"
+// use backtick (` `) to print template literal
+console.log(sentence1) // Nikhil is a friend of Pramod
+console.log(sentence2) // ${boy2} is a friend of ${boy1}
+
 
 // Escape Sequence Characters
 // let fruit = 'Bana\'na'
